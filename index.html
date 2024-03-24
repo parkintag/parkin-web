@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SFQ0YNDYV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-3SFQ0YNDYV');
+        </script>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="ParkIN is a mobile application to help drivers to park car in Sweden and avoind service time fines." />
@@ -16,7 +24,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <script>firebase.analytics().logEvent('page_opened');</script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -189,7 +196,7 @@
         <!-- App badge section-->
         <section class="bg-gradient-primary-to-secondary" id="download">
             <div class="container px-5">
-                <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
+                <h2 class="text-center text-white font-alt mb-4" onclick="logEvent(analytics, 'get_ios_app_clicked');">Get the app now!</h2>
                 <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
                     <!-- <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> -->
                     <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
@@ -208,7 +215,26 @@
             </div>
         </footer>
 
-        <script type="module" src="js/ga.js"></script>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+            import { getAnalytics, logEvent } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
+
+            const firebaseConfig = {
+              apiKey: "AIzaSyDo2JPDgTJzhG7CgI85-axV0VU16Q1YVV4",
+              authDomain: "parkin-414214.firebaseapp.com",
+              projectId: "parkin-414214",
+              storageBucket: "parkin-414214.appspot.com",
+              messagingSenderId: "550761066079",
+              appId: "1:550761066079:web:d01faf40b1e295948e75ea",
+              measurementId: "G-3SFQ0YNDYV"
+            };
+          
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+            logEvent(analytics, 'index_page_opened');
+        </script>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
