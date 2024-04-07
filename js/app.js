@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', async function () {
     
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
-    logEvent(analytics, 'index_page_opened');
+    // logEvent(analytics, 'index_page_opened');
 });
