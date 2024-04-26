@@ -24,6 +24,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Font Awesome icon library -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -56,7 +58,7 @@
                             <p class="lead fw-normal text-muted mb-5">Your digital parking assistant in Sweden!</p>
                             <div class="d-flex flex-column flex-lg-row align-items-center">
                                 <!-- <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> -->
-                                <a href="https://apps.apple.com/se/app/parkin-boende-sverige/id6480073542"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                                <a href="https://apps.apple.com/se/app/parkin-boende-sverige/id6480073542" target="_blank"><img class="app-badge" src="assets/img/app-store-badge.svg" alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +191,20 @@
                     <h4 class="text-white lh-1 mb-4">
                         Share your feedback, ask questions...
                     </h4>
-                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="mailto:parkintag@gmail.com">Send Email</a>
+                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="mailto:parkintag@gmail.com">
+                        <span class="mx-1">Send Email</span>
+                        <span class="fa-regular fa-envelope"></span>
+                    </a>
+                    <a class="btn btn-outline-light py-3 px-4 my-4  ms-3 rounded-pill" href="https://twitter.com/ParkIN_Sweden" target="_blank">
+                        <span>&nbsp;&nbsp;&nbsp;</span>
+                        <span class="mx-1">Twitter</span>
+                        <span class="fab fa-x-twitter"></span>
+                        <span>&nbsp;&nbsp;&nbsp;</span>
+                    </a>
+                    <a class="btn btn-outline-light py-3 px-4 my-4 ms-3 rounded-pill  fa-1x" href="https://www.instagram.com/parkin_sweden/" target="_blank">
+                        <span class="mx-1">Instagtam</span>
+                        <span class="fab fa-instagram"></span>
+                    </a>
                 </div>
             </div>
         </section>
@@ -198,19 +213,27 @@
             <div class="container px-5">
                 <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
                 <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                    <!-- <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> -->
-                    <a href="https://apps.apple.com/se/app/parkin-boende-sverige/id6480073542"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                    <!-- <a class="me-lg-3 mb-4 mb-lg-0" href="#!" target="_blank"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> -->
+                    <a href="https://apps.apple.com/se/app/parkin-boende-sverige/id6480073542" target="_blank"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="" /></a>                            
                 </div>
             </div>
         </section>
         <!-- Footer-->
         <footer class="bg-black text-center py-5">
-            <div class="container px-5">
-                <div class="text-white-50 small">
-                    <div class="mb-2">&copy; ParkIN 2024. All Rights Reserved.</div>
-                    <a href="policy.html">Privacy Policy</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="terms.html">Terms & Conditions</a>
+            <div class="container px-0">
+            <div class="row">
+                <div class="col my-auto">
+                    <div class="text-white-50 small">
+                        <div class="mb-2">&copy; ParkIN 2024. All Rights Reserved.</div>
+                        <a href="policy.html">Privacy Policy</a>
+                        <span class="mx-1">&middot;</span>
+                        <a href="terms.html">Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col my-auto">
+                    <div class="text-center">
+                        <a href="https://twitter.com/ParkIN_Sweden" target="_blank" class="fab fa-x-twitter fa-3x" style="text-decoration: none;"></a>
+                        <a href="https://www.instagram.com/parkin_sweden/" target="_blank" class="fab fa-instagram fa-3x ms-5" style="text-decoration: none;"></a>
                 </div>
             </div>
         </footer>
