@@ -51,6 +51,13 @@
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
+  
+  --bs-parkin-line-green-rgb: 30, 160, 35;
+  --bs-parkin-line-blue-rgb: 0, 150, 255;
+  --bs-parkin-line-amber-rgb: 255, 150, 0;
+  --bs-parkin-line-red-rgb: 255, 0, 0;
+  --bs-parkin-purple-rgb: 101, 31, 255;
+
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
@@ -77,6 +84,8 @@
   --bs-link-hover-color: #212cc0;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
+  --bs-parkin-purple: #673AB7;
+
 }
 
 *,
@@ -6695,6 +6704,14 @@ textarea.form-control-lg {
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
 }
 
+.text-color-parkin-blue {
+  color: #536DFE !important;
+}
+
+.text-color-parkin-purple {
+  color: #673AB7 !important;
+}
+
 .link-primary {
   color: #2937f0 !important;
 }
@@ -8084,6 +8101,26 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-parkin-line-green {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-parkin-line-green-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-parkin-line-blue {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-parkin-line-blue-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-parkin-line-amber {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-parkin-line-amber-rgb), var(--bs-text-opacity)) !important;
+}
+
+.text-parkin-line-red {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-parkin-line-red-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -8173,6 +8210,16 @@ textarea.form-control-lg {
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-parkin-blue {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-parkin-line-blue-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-parkin-purple {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-parkin-purple-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-body {

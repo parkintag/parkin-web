@@ -1,247 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SFQ0YNDYV"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-3SFQ0YNDYV');
-        </script>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="ParkIN is a mobile application that helps drivers to park their cars in Sweden and avoid service time fines." />
-        <meta name="author" content="ParkIN" />
-        <title>ParkIN - Mobile Parking Assistant</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <!-- Font Awesome icon library -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-            <div class="container px-5">
-                <a class="navbar-brand fw-bold" href="#page-top">ParkIN</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="bi-list"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link me-lg-3" href="#faq">FAQ</a></li> -->
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#contacts">Contacts</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
-                    </ul>
-                </div>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SFQ0YNDYV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-3SFQ0YNDYV');
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description"
+        content="ParkIN is a mobile application that helps drivers to park their cars in Sweden and avoid service time fines." />
+    <meta name="author" content="ParkIN" />
+    <title>ParkIN - Mobile Parking Assistant</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Font Awesome icon library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a class="navbar-brand fw-bold" href="#page-top">ParkIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#faq">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#contacts">Contacts</a></li>
+                </ul>
             </div>
-        </nav>
-        <!-- Mashead header-->
-        <header class="masthead" id="home">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <!-- Mashead text and app badges-->
-                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <h1 class="display-1 lh-1 mb-3">ParkIN</h1>
-                            <p class="lead fw-normal text-muted mb-5">Your digital parking assistant in Sweden!</p>
-                            <div class="d-flex flex-column flex-lg-row align-items-center">
-                                <!-- <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> -->
-                                <a href="https://apps.apple.com/se/app/parkin-boende-sverige/id6480073542" target="_blank"><img class="app-badge" src="assets/img/app-store-badge.svg" alt=""/></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <!-- Masthead device mockup feature-->
-                        <div class="masthead-device-mockup">
-                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                        <stop class="gradient-start-color" offset="0%"></stop>
-                                        <stop class="gradient-end-color" offset="100%"></stop>
-                                    </linearGradient>
-                                </defs>
-                                <circle cx="50" cy="50" r="50"></circle></svg
-                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
-                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
-                            <div class="device-wrapper">
-                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                                    <div class="screen bg-black">
-                                        <!-- PUT CONTENTS HERE:-->
-                                        <!-- * * This can be a video, image, or just about anything else.-->
-                                        <!-- * * Set the max width of your media to 100% and the height to-->
-                                        <!-- * * 100% like the demo example below.-->
-                                        <!-- <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video> -->
-                                        <img src="assets/img/screenshot-0.jpg" alt="" width="100%" height="100%">
-                                    </div>
-                                </div>
-                            </div>
+        </div>
+    </nav>
+    <!-- Mashead header-->
+    <header class="masthead" id="home">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <!-- Mashead text and app badges-->
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <h1 class="display-1 lh-1 mb-3">ParkIN</h1>
+                        <p class="lead fw-normal text-muted mb-5">Your digital parking assistant in Sweden!</p>
+                        <div class="d-flex flex-column flex-lg-row align-items-center">
+                            <!-- <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> -->
+                            <a href="https://apps.apple.com/se/app/parkin-boende-sverige/id6480073542"
+                                target="_blank"><img class="app-badge" src="assets/img/app-store-badge.svg"
+                                    alt="" /></a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
-        <!-- Quote/testimonial aside-->
-        <aside class="text-center bg-gradient-primary-to-secondary">
-            <div class="container px-5">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-xl-10">
-                        <div class="h2 fs-1 text-white mb-4">Avoid parking fines! Be informed to move your car before the service time starts.</div>
-                        <!-- <img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" /> -->
-                    </div>
-                </div>
-            </div>
-        </aside>
-        <!-- App features section-->
-        <section id="features">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
-                        <div class="container-fluid px-5">
-                            <div class="row gx-5">
-                                <div class="col-md-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi-geo icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Parking detection</h3>
-                                        <p class="text-muted mb-0">The App detects when you stop driving the car and saves its parking location.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 mb-5">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi-chat-left-dots icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Notifications</h3>
-                                        <p class="text-muted mb-0">Be informed about parking service time in advance. Move your car and avoid the fines!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 mb-5 mb-md-0">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi-patch-question icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Service Time</h3>
-                                        <p class="text-muted mb-0">Check service time details simply touching the parking line on the map!</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <!-- Feature item-->
-                                    <div class="text-center">
-                                        <i class="bi-infinity icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Background</h3>
-                                        <p class="text-muted mb-0">Let the app to work in the background and save parking locations automatically!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 order-lg-0">
-                        <!-- Features section device mockup-->
-                        <div class="features-device-mockup">
-                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                        <stop class="gradient-start-color" offset="0%"></stop>
-                                        <stop class="gradient-end-color" offset="100%"></stop>
-                                    </linearGradient>
-                                </defs>
-                                <circle cx="50" cy="50" r="50"></circle></svg
-                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
-                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
-                            <div class="device-wrapper">
-                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                                    <div class="screen bg-black">
-                                        <!-- PUT CONTENTS HERE:-->
-                                        <!-- * * This can be a video, image, or just about anything else.-->
-                                        <!-- * * Set the max width of your media to 100% and the height to-->
-                                        <!-- * * 100% like the demo example below.-->
-                                        <img src="assets/img/screenshot-1.jpg" alt="" width="100%" height="100%">
-                                        <!-- <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video> -->
-                                    </div>
+                <div class="col-lg-6">
+                    <!-- Masthead device mockup feature-->
+                    <div class="masthead-device-mockup">
+                        <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                    <stop class="gradient-start-color" offset="0%"></stop>
+                                    <stop class="gradient-end-color" offset="100%"></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03"
+                                transform="translate(120.42 -49.88) rotate(45)"></rect>
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03"
+                                transform="translate(-49.88 120.42) rotate(-45)"></rect>
+                        </svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg>
+                        <div class="device-wrapper">
+                            <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                <div class="screen bg-black">
+                                    <!-- PUT CONTENTS HERE:-->
+                                    <!-- * * This can be a video, image, or just about anything else.-->
+                                    <!-- * * Set the max width of your media to 100% and the height to-->
+                                    <!-- * * 100% like the demo example below.-->
+                                    <!-- <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video> -->
+                                    <img src="assets/img/screenshot-0.jpg" alt="" width="100%" height="100%">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Call to action section-->
-        <section class="cta" id="contacts">
-            <div class="cta-content">
-                <div class="container px-5">
-                    <h2 class="text-white display-3 lh-1 mb-4">
-                        You are welcome to contact us!
-                    </h2>
-                    <h4 class="text-white lh-1 mb-4">
-                        Share your feedback, ask questions...
-                    </h4>
-                    <a class="btn btn-outline-light py-3 px-4 my-3 ms-3 rounded-pill" href="mailto:parkintag@gmail.com">
-                        <span class="mx-1">Send Email</span>
-                        <span class="fa-regular fa-envelope"></span>
-                    </a>
-                    <a class="btn btn-outline-light py-3 px-4 my-3 ms-3 rounded-pill" href="https://twitter.com/ParkIN_Sweden" target="_blank">
-                        <span>&nbsp;&nbsp;&nbsp;</span>
-                        <span class="mx-1">Twitter</span>
-                        <span class="fab fa-x-twitter"></span>
-                        <span>&nbsp;&nbsp;&nbsp;</span>
-                    </a>
-                    <a class="btn btn-outline-light py-3 px-4 my-2 ms-3 rounded-pill  fa-1x" href="https://www.instagram.com/parkin_sweden/" target="_blank">
-                        <span class="mx-1">Instagtam</span>
-                        <span class="fab fa-instagram"></span>
-                    </a>
+        </div>
+    </header>
+    <!-- Quote/testimonial aside-->
+    <aside class="text-center bg-gradient-primary-to-secondary">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xl-10">
+                    <div class="h2 fs-1 text-white mb-4">Avoid parking fines! Be informed to move your car before the
+                        service time starts.</div>
+                    <!-- <img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" /> -->
                 </div>
             </div>
-        </section>
-        <!-- App badge section-->
-        <section class="bg-gradient-primary-to-secondary" id="download">
+        </div>
+    </aside>
+    <!-- App features section-->
+    <section id="features">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                    <div class="container-fluid px-5">
+                        <div class="row gx-5">
+                            <div class="col-md-6 mb-5">
+                                <!-- Feature item-->
+                                <div class="text-center">
+                                    <i class="bi-geo icon-feature text-gradient d-block mb-3"></i>
+                                    <h3 class="font-alt">Parking detection</h3>
+                                    <p class="text-muted mb-0">The App detects when you stop driving the car and saves
+                                        its parking location.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5">
+                                <!-- Feature item-->
+                                <div class="text-center">
+                                    <i class="bi-chat-left-dots icon-feature text-gradient d-block mb-3"></i>
+                                    <h3 class="font-alt">Notifications</h3>
+                                    <p class="text-muted mb-0">Be informed about parking service time in advance. Move
+                                        your car and avoid the fines!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-5 mb-md-0">
+                                <!-- Feature item-->
+                                <div class="text-center">
+                                    <i class="bi-patch-question icon-feature text-gradient d-block mb-3"></i>
+                                    <h3 class="font-alt">Service Time</h3>
+                                    <p class="text-muted mb-0">Check service time details simply touching the parking
+                                        line on the map!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Feature item-->
+                                <div class="text-center">
+                                    <i class="bi-infinity icon-feature text-gradient d-block mb-3"></i>
+                                    <h3 class="font-alt">Background</h3>
+                                    <p class="text-muted mb-0">Let the app to work in the background and save parking
+                                        locations automatically!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-lg-0">
+                    <!-- Features section device mockup-->
+                    <div class="features-device-mockup">
+                        <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                    <stop class="gradient-start-color" offset="0%"></stop>
+                                    <stop class="gradient-end-color" offset="100%"></stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03"
+                                transform="translate(120.42 -49.88) rotate(45)"></rect>
+                            <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03"
+                                transform="translate(-49.88 120.42) rotate(-45)"></rect>
+                        </svg><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50"></circle>
+                        </svg>
+                        <div class="device-wrapper">
+                            <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                <div class="screen bg-black">
+                                    <!-- PUT CONTENTS HERE:-->
+                                    <!-- * * This can be a video, image, or just about anything else.-->
+                                    <!-- * * Set the max width of your media to 100% and the height to-->
+                                    <!-- * * 100% like the demo example below.-->
+                                    <img src="assets/img/screenshot-1.jpg" alt="" width="100%" height="100%">
+                                    <!-- <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- App download section-->
+    <section class="bg-gradient-primary-to-secondary" id="download">
+        <div class="container px-5">
+            <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
+            <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                <!-- <a class="me-lg-3 mb-4 mb-lg-0" href="#!" target="_blank"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> -->
+                <a href="https://apps.apple.com/se/app/parkin-boende-sverige/id6480073542" target="_blank"><img
+                        class="app-badge" src="assets/img/app-store-badge.svg" alt="" /></a>
+            </div>
+        </div>
+    </section>
+    <!-- Call to action section-->
+    <section class="cta" id="contacts">
+        <div class="cta-content">
             <div class="container px-5">
-                <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
-                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                    <!-- <a class="me-lg-3 mb-4 mb-lg-0" href="#!" target="_blank"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a> -->
-                    <a href="https://apps.apple.com/se/app/parkin-boende-sverige/id6480073542" target="_blank"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="" /></a>                            
-                </div>
+                <h2 class="text-white display-3 lh-1 mb-4">
+                    You are welcome to contact us!
+                </h2>
+                <h4 class="text-white lh-1 mb-4">
+                    Share your feedback, ask questions...
+                </h4>
+                <a id="sendEmail" class="btn btn-outline-light py-3 px-4 my-3 ms-3 rounded-pill" href="mailto:parkintag@gmail.com">
+                    <span class="mx-1">Send Email</span>
+                    <span class="fa-regular fa-envelope"></span>
+                </a>
+                <a class="btn btn-outline-light py-3 px-4 my-3 ms-3 rounded-pill"
+                    href="https://twitter.com/ParkIN_Sweden" target="_blank">
+                    <span>&nbsp;&nbsp;&nbsp;</span>
+                    <span class="mx-1">Twitter</span>
+                    <span class="fab fa-x-twitter"></span>
+                    <span>&nbsp;&nbsp;&nbsp;</span>
+                </a>
+                <a class="btn btn-outline-light py-3 px-4 my-2 ms-3 rounded-pill  fa-1x"
+                    href="https://www.instagram.com/parkin_sweden/" target="_blank">
+                    <span class="mx-1">Instagtam</span>
+                    <span class="fab fa-instagram"></span>
+                </a>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-black text-center py-5">
-            <div class="container px-0">
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-gradient-primary-to-secondary " id="faq">
+        <div class="container px-5">
+            <h2 class="text-center text-white font-alt mb-4">Frequently Asked Questions</h2>
+
+
+
+            <!-- FAQ 1 - Bootstrap Brain Component -->
+            <section class="py-3 py-md-5">
+                <div class="container">
+                    <div class="row gy-5 gy-lg-0 align-items-lg-center">
+                        <!-- <div class="col-12 col-lg-6">
+          <img class="img-fluid rounded" loading="lazy" src="./assets/img/faq-img-1.png" alt="How can we help you?">
+        </div> -->
+                        <div class="col-12 col-lg-11">
+                            <div class="row justify-content-xl-end">
+                                <div class="col-12 col-xl-11">
+                                    <!-- <h2 class="h1 text-light mb-3">Frequently Asked Questions</h2> -->
+                                    <div class="accordion accordion-flush" id="accordionFAQ">
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faq_1">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse_faq_1"
+                                                    aria-expanded="false" aria-controls="collapse_faq_1">
+                                                    My city/district is not on the supported list!
+                                                </button>
+                                            </h2>
+                                            <div id="collapse_faq_1" class="accordion-collapse collapse"
+                                                aria-labelledby="heading_1" data-bs-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>We are working on adding parking service time details for all cities in Sweden.<br> 
+                                                    Please wait for the app updates or follow us on <a href="https://twitter.com/ParkIN_Sweden" target="_blank">twitter</a>, <a href="https://www.instagram.com/parkin_sweden/" target="_blank">instagram</a> to get news instantly.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faq_2">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse_faq_2"
+                                                    aria-expanded="false" aria-controls="collapse_faq_2">
+                                                    What do the parking line colors mean?
+                                                </button>
+                                            </h2>
+                                            <div id="collapse_faq_2" class="accordion-collapse collapse"
+                                                aria-labelledby="heading_2" data-bs-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><span class="text-parkin-line-green">Green</span> line means
+                                                            parking is allowed right now with a valid residence
+                                                            (boende­parkerings­tillstånd och biljett) permit; otherwise
+                                                            allowed for a fee.</li>
+                                                        <li><span class="text-parkin-line-blue">Blue</span> line means
+                                                            parking is allowed for a fee right now.</li>
+                                                        <li><span class="text-parkin-line-amber">Amber</span> line means
+                                                            parking will be prohibited later in the day.</li>
+                                                        <li><span class="text-parkin-line-red">Red</span> line means no
+                                                            parking is allowed right now.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faq_3">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse_faq_3"
+                                                    aria-expanded="false" aria-controls="collapse_faq_3">
+                                                    The parking details in the App don't match the road signs...
+                                                </button>
+                                            </h2>
+                                            <div id="collapse_faq_3" class="accordion-collapse collapse"
+                                                aria-labelledby="heading_3" data-bs-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>We use officially available parking service data. Unfortunately, even the official one is not 100% accurate.<br>
+                                                         Please always double-check road signs when parking your car and report your findings to us. We will update the data in the next release of the App.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faq_4">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse_faq_4"
+                                                    aria-expanded="false" aria-controls="collapse_faq_4">
+                                                    Is there an Android version of ParkIN?
+                                                </button>
+                                            </h2>
+                                            <div id="collapse_faq_4" class="accordion-collapse collapse"
+                                                aria-labelledby="heading_4" data-bs-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>The Android version will be available later.<br> 
+                                                        Please follow us on <a href="https://twitter.com/ParkIN_Sweden" target="_blank">twitter</a>, <a href="https://www.instagram.com/parkin_sweden/" target="_blank">instagram</a> to get news instantly.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faq_5">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse_faq_5"
+                                                    aria-expanded="false" aria-controls="collapse_faq_5">
+                                                    I see parking only for my home area. How can I see parking details for other districts, cities?
+                                                </button>
+                                            </h2>
+                                            <div id="collapse_faq_5" class="accordion-collapse collapse"
+                                                aria-labelledby="heading_5" data-bs-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>The current version of ParkIN shows the district/area defined in settings. We believe that even with this limitation ParkIN can be useful for you and will help to avoid fines near your home location.
+                                                        Later there will be an option to access parking data of the entire city/region or all supported cities in Sweden.</p>
+                                                        <i>P.S. There is no such limitation in the city of Solna as the first city supported by ParkIN.</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faq_6">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse_faq_6"
+                                                    aria-expanded="false" aria-controls="collapse_faq_6">
+                                                    How can I reset the map camera zoom, and view angle to default one?
+                                                </button>
+                                            </h2>
+                                            <div id="collapse_faq_6" class="accordion-collapse collapse"
+                                                aria-labelledby="heading_6" data-bs-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>Press and hold the navigation button in the top right corner of the map.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="faq_7">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapse_faq_7"
+                                                    aria-expanded="false" aria-controls="collapse_faq_7">
+                                                    How can I change the app language?
+                                                </button>
+                                            </h2>
+                                            <div id="collapse_faq_7" class="accordion-collapse collapse"
+                                                aria-labelledby="heading_7" data-bs-parent="#accordionFAQ">
+                                                <div class="accordion-body">
+                                                    <p>ParkIN supports Swedish and English which are selected automatically based on your phone's defaults. 
+                                                        If you want to change the language manually open iPhone's system settings and search for "ParkIN". 
+                                                        Click on ParkIN in the search results and you will see the setting for a preferred language which you may change.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="bg-black text-center py-5">
+        <div class="container px-0">
             <div class="row">
                 <div class="col my-auto">
                     <div class="text-white-50 small">
                         <div class="mb-2">&copy; ParkIN 2024. All Rights Reserved.</div>
-                        <a href="policy.html">Privacy Policy</a>
+                        <a id="policy" href="policy.html">Privacy Policy</a>
                         <span class="mx-1">&middot;</span>
-                        <a href="terms.html">Terms & Conditions</a>
+                        <a id="terms" href="terms.html">Terms & Conditions</a>
                     </div>
                 </div>
                 <div class="col my-auto">
                     <div class="text-center">
-                        <a href="https://twitter.com/ParkIN_Sweden" target="_blank" class="fab fa-x-twitter fa-3x" style="text-decoration: none;"></a>
-                        <a href="https://www.instagram.com/parkin_sweden/" target="_blank" class="fab fa-instagram fa-3x ms-3" style="text-decoration: none;"></a>
+                        <a href="https://twitter.com/ParkIN_Sweden" target="_blank" class="fab fa-x-twitter fa-2x"
+                            style="text-decoration: none;"></a>
+                        <a href="https://www.instagram.com/parkin_sweden/" target="_blank"
+                            class="fab fa-instagram fa-2x ms-3" style="text-decoration: none;"></a>
+                    </div>
                 </div>
-            </div>
-        </footer>
+    </footer>
 
-        <script type="module" src="js/app.js"></script>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    <script type="module" src="js/app.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
